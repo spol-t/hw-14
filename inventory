@@ -1,0 +1,8 @@
+[webservers]
+webserver1
+webserver2
+
+[databases]
+database1
+database2
+

@@ -1,0 +1,7 @@
+---
+- name: Deploy template to /tmp/test2
+  template:
+    src: hostname_templated.j2
+    dest: /tmp/test2
+  become: yes
+...

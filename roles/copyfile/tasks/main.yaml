@@ -1,0 +1,10 @@
+---
+- hosts: servers
+  tasks:
+    - name: Copy file to /tmp/test1
+      copy:
+        src: hello_world.txt
+        dest: /tmp/test1
+      become: yes
+...
+
